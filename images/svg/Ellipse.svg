@@ -1,0 +1,83 @@
+<svg viewBox="0 0 650 650" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<circle r="4.5" fill="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="0" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+<circle r="5.5" stroke="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="0" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+
+
+<circle r="5" stroke="#C6A4E3">
+<animateMotion xmlns="http://www.w3.org/2000/svg" begin="1.3s" dur="10s" repeatCount="indefinite">
+    <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+</animateMotion>
+</circle>
+
+
+
+<circle r="4.5" fill="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="2.6s" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+
+<circle r="5.5" stroke="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="2.6s" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+
+
+<circle r="5" stroke="#C6A4E3">
+<animateMotion xmlns="http://www.w3.org/2000/svg" begin="3.9s" dur="10s" repeatCount="indefinite">
+    <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+</animateMotion>
+</circle>
+
+
+
+<circle r="4.5" fill="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="5.2s" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+
+<circle r="5.5" stroke="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="5.2s" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+
+
+<circle r="5" stroke="#C6A4E3">
+<animateMotion xmlns="http://www.w3.org/2000/svg" begin="6.5s" dur="10s" repeatCount="indefinite">
+    <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+</animateMotion>
+</circle>
+
+<circle r="4.5" fill="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="7.8s" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+
+<circle r="5.5" stroke="#C6A4E3">
+    <animateMotion xmlns="http://www.w3.org/2000/svg" begin="7.8s" dur="10s" repeatCount="indefinite">
+        <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+    </animateMotion>
+</circle>
+
+
+<circle r="5" stroke="#C6A4E3">
+<animateMotion xmlns="http://www.w3.org/2000/svg" begin="8.8s" dur="10s" repeatCount="indefinite">
+    <mpath xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#main-circle"/>
+</animateMotion>
+</circle>
+
+<path id="main-circle" d="M1 278.5C1 125.241 125.241 1 278.5 1C431.759 1 556 125.241 556 278.5C556 431.759 431.759 556 278.5 556C125.241 556 1 431.759 1 278.5Z" stroke="#C6A4E3" stroke-dasharray="12 12"/>
+</svg>
