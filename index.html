@@ -11,24 +11,19 @@
     <!-- Add the slick-theme.css if you want default styling -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!-- Add the slick-theme.css if you want default styling -->
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
     <div class="topMainBackground"></div>
     <div class="topMainBackground-image"></div>
     <div class="centerMainBackground"></div>
-    <div class="topAnimations">
-        <div class="animation_left">
-            <img src="./images/svg/Ellipse.svg" alt="">
-        </div>
-        <div class="animation_right">
-            <img src="./images/svg/Rocket.svg" alt="">
-        </div>
-        <div class="animation_middle">
-            <img src="./images/svg/Ellipse-2.svg" alt="">
-        </div>
-        <div class="animation_middle-left">
-            <svg width="325" height="310" viewBox="0 0 325 310" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+    <div class="svg_animations">
+        <div class="circle-top-left"><img src="./images/svg/Ellipse.svg" alt=""></div>
+        <div class="circle-top-right"><img src="./images/svg/Rocket.svg" alt=""></div>
+        <div class="circle-center-right"><img src="./images/svg/Ellipse-2.svg" alt=""></div>
+        <div class="vector-center-left-1">
+            <svg viewBox="0 0 325 310" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0)">
                     <path d="M1 309L120 92L321 5.5" stroke="#C6A4E3" stroke-dasharray="12 12"/>
     
@@ -58,8 +53,8 @@
                 </defs>
             </svg>
         </div>
-        <div class="animation_center">
-            <svg width="419" height="889" viewBox="0 0 419 889" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="vector-center-left-2">
+            <svg viewBox="0 0 419 889" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M196.5 1L73 195L337 389L176.5 763L417.5 887L176.5 445.5" stroke="#C6A4E3" stroke-dasharray="12 12"/>
                 <circle id="animation_center1" cx="0" cy="0" r="6.5" fill="#C6A4E3"/>
                 <animateMotion 
@@ -90,8 +85,8 @@
                 />
             </svg>
         </div>
-        <div class="animation_center_left">
-            <svg width="1962" height="692" viewBox="0 0 1962 692" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="vector-center-right">
+            <svg viewBox="0 0 1962 692" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1830.5 1L1659 389L1900 311L1871.5 225.5L1659 691L1961 634" stroke="#C6A4E3" stroke-dasharray="12 12"/>
                 <circle id="animation_center_left1" cx="0" cy="0" r="6.5" fill="#C6A4E3"/>
                 <animateMotion 
@@ -374,38 +369,134 @@
         </div>
         <hr class="custom-line">
     </div>
-    <div class="slotMachines">
-        <div class="slotMachines__arrowPrev"></div>    
-        <div class="slotMachines__arrowNext"></div>
-        <div class="slotMachines__wrapper">
-            <div class="slotMachines__slider" id="slotMachines__slider">
-                <div class="slide"><img src="./images/png/slide-1.png" alt=""></div>
-                <div class="slide"><img src="./images/png/slide-2.png" alt=""></div>
-                <div class="slide"><img src="./images/png/slide-2.png" alt=""></div>
-                <div class="slide"><img src="./images/png/slide-2.png" alt=""></div>
+    <div class="sliders active" id="danceFloor">
+        <div class="sliders__arrowPrev danceFloor__sliderPrev"></div>    
+        <div class="sliders__arrowNext danceFloor__sliderNext"></div>
+        <div class="sliders__wrapper">
+            <div class="slider" id="danceFloor__slider">
+                <div class="slide">
+                    <img src="./images/jpg/dance_floor/1.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/dance_floor/2.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/dance_floor/3.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/dance_floor/1.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/dance_floor/2.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/dance_floor/3.jpg" alt="">
+                    <span></span>
+                </div>
             </div>
         </div>
-    </div>    
-    <script 
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-        crossorigin="anonymous"
-    ></script>
-        <script 
-        src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
-        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
-        crossorigin="anonymous"
-    ></script>
-    <script 
-        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
-        integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
-        crossorigin="anonymous"
-    ></script>
-    <script 
-        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
-        integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw=="
-        crossorigin="anonymous"
-    ></script>
+    </div>
+    <div class="sliders" id="slotMachines">
+        <div class="sliders__arrowPrev slotMachines__sliderPrev"></div>    
+        <div class="sliders__arrowNext slotMachines__sliderNext"></div>
+        <div class="sliders__wrapper">
+            <div class="slider" id="slotMachines__slider">
+                <div class="slide">
+                    <img src="./images/png/slide-1.png" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/png/slide-2.png" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/png/slide-1.png" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/png/slide-2.png" alt="">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sliders" id="hall">
+        <div class="sliders__arrowPrev hall__sliderPrev"></div>    
+        <div class="sliders__arrowNext hall__sliderNext"></div>
+        <div class="sliders__wrapper">
+            <div class="slider" id="hall__slider">
+                <div class="slide">
+                    <img src="./images/jpg/hall/1.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/hall/2.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/hall/1.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/hall/2.jpg" alt="">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sliders" id="kidsRoom">
+        <div class="sliders__arrowPrev kidsRoom__sliderPrev"></div>    
+        <div class="sliders__arrowNext kidsRoom__sliderNext"></div>
+        <div class="sliders__wrapper">
+            <div class="slider" id="kidsRoom__slider">
+                <div class="slide">
+                    <img src="./images/jpg/kids_room/1.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/kids_room/2.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/kids_room/1.jpg" alt="">
+                    <span></span>
+                </div>
+                <div class="slide">
+                    <img src="./images/jpg/kids_room/2.jpg" alt="">
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="gallery__wrapper">
+        <div class="gallery__wrapper_bg">
+            <nav class="gallery__navs">
+                <li class="gallery_nav" onclick="openSlider(danceFloor, danceFloor_nav)">
+                    <a class="active" id="danceFloor_nav">DANCE FLOOR</a>
+                </li>
+                <li class="gallery_nav" onclick="openSlider(slotMachines, slotMachines_nav)">
+                    <a id="slotMachines_nav">slot machines</a>
+                </li>
+                <li class="gallery_nav" onclick="openSlider(hall, hall_nav)">
+                    <a id="hall_nav">HALL</a>
+                </li>
+                <li class="gallery_nav" onclick="openSlider(kidsRoom, kidsRoom_nav)">
+                    <a id="kidsRoom_nav">KIDS ROOMS</a>
+                </li>
+            </nav>  
+        </div>  
+    </div>   
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" integrity="sha512-wK2NuxEyN/6s53M8G7c6cRUXvkeV8Uh5duYS06pAdLq4ukc72errSIyyGQGYtzWEzvVGzGSWg8l79e0VkTJYPw==" crossorigin="anonymous"></script>
     
     <script src="./js/main.js"></script>
 </body>

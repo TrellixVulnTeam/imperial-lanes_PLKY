@@ -51,10 +51,49 @@ $('.advantages__slider').slick({
   prevArrow: ".arrow-left", 
   nextArrow: ".arrow-right", 
 });
+
+
+$('#danceFloor__slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  centerMode: true,
+  prevArrow: ".danceFloor__sliderPrev", 
+  nextArrow: ".danceFloor__sliderNext", 
+});
 $('#slotMachines__slider').slick({
   slidesToShow: 3,
   slidesToScroll: 1,
   centerMode: true,
-  prevArrow: ".slotMachines__arrowPrev", 
-  nextArrow: ".slotMachines__arrowNext", 
+  prevArrow: ".slotMachines__sliderPrev", 
+  nextArrow: ".slotMachines__sliderNext", 
 });
+$('#hall__slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  centerMode: true,
+  prevArrow: ".hall__sliderPrev", 
+  nextArrow: ".hall__sliderNext", 
+});
+$('#kidsRoom__slider').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  centerMode: true,
+  prevArrow: ".kidsRoom__sliderPrev", 
+  nextArrow: ".kidsRoom__sliderNext", 
+});
+
+
+function openSlider(container, nav) {
+  $("#danceFloor_nav").removeClass("active");
+  $("#slotMachines_nav").removeClass("active");
+  $("#hall_nav").removeClass("active");
+  $("#kidsRoom_nav").removeClass("active");
+
+  $("#danceFloor").removeClass("active");
+  $("#slotMachines").removeClass("active");
+  $("#hall").removeClass("active");
+  $("#kidsRoom").removeClass("active");
+
+  container.classList.add("active");
+  nav.classList.add("active");
+}
