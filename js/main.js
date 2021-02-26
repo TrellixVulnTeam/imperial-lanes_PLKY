@@ -45,6 +45,45 @@ gsap.to("#container-lines-right", {
   }
 });
 
+
+gsap.to("#container-lines-center-left", {
+  scrollTrigger: {
+      trigger: "#container-lines-center",
+        scrub: true,
+        // markers: true,
+        start: "start",
+        end: "bottom"
+  },
+  width: () => {
+      return 750*100/1920 + 'vw';
+  }
+});
+gsap.to("#container-lines-center-right", {
+  scrollTrigger: {
+      trigger: "#container-lines-center",
+        scrub: true,
+        // markers: true,
+        start: "start",
+        end: "bottom"
+  },
+  width: () => {
+      return 750*100/1920 + 'vw';
+  }
+});
+
+
+gsap.to("#container-lines-center-title", {
+  scrollTrigger: {
+      trigger: "#container-lines-center",
+        scrub: true,
+        // markers: true,
+        start: "start",
+        end: "bottom"
+  },
+  top: () => {
+      return -36*100/1920 + 'vw';
+  }
+});
 $('.advantages__slider').slick({
   slidesToShow: 4,
   slidesToScroll: 1,
@@ -80,6 +119,27 @@ $('#kidsRoom__slider').slick({
   centerMode: true,
   prevArrow: ".kidsRoom__sliderPrev", 
   nextArrow: ".kidsRoom__sliderNext", 
+});
+
+$('#mainSlider').slick({
+  slidesToShow: 3,
+  // slidesToScroll: 1,
+  // centerMode: true,
+  // prevArrow: ".kidsRoom__sliderPrev", 
+  // nextArrow: ".kidsRoom__sliderNext", 
+  infinite: true,
+  // slidesToShow: 1,
+  slidesToScroll: 1,
+  // speed: 100,
+  // autoplay: true,
+  // swipeToSlide: false,
+  centerMode: true,
+  variableWidth: true,
+  arrows: true,
+  dots: true,
+  speed: 0,
+  prevArrow: "#mainSlider__Prev", 
+  nextArrow: "#mainSlider__Next", 
 });
 
 
